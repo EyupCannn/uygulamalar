@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Kişisel Bilgiler</legend>
+        <label>Ad Soyad</label><br>
+        <input type="text" placeholder="Ad soyad Giriniz"><br>
+        <br>
+        <label>Doğum Tarihi</label><br>
+        <input type="date"><br>
+        <br>
+        <label>Cinsiyet</label><br>
+        <input type="radio" name="Cinsiyet">Erkek
+        <input type="radio" name="Cinsiyet">Kadın
+    </fieldset>
+    <fieldset>
+        <legend>İletişim Bilgileri</legend>
+        <label>E-posta</label><br>
+        <input type="text" placeholder="E-posta Giriniz"><br>
+        <br>
+        <label>Telefon</label><br>
+        <input type="tel" placeholder="0555 555 55 55">
+        <br>
+        Şehir <br>
+        <select name="İller">
+            <option value="34">İstanbul</option>
+            <option value="01">Adana</option>
+            <option value="53">Rize</option>
+            <option value="65">Van</option>
+            <option value="52">Ordu</option>
+            <option value="37">Kastamonu</option>
+            <option value="14">Bolu</option>
+        </select><br>
+        <br>
+        <label>İlçe</label><br>
+        <input type="text"><br>
+        <br>
+        <label>Adres</label><br>
+        <textarea rows="10" cols="40"></textarea><br>
+        <br>
+        <label>Web Sitesi</label><br>
+        <input type="text" placeholder="Web site adresi"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Kariyer Bilgileri</legend>
+        <label>Başvurduğunuz birim</label><br>
+        <input type="text" placeholder="Satış / Pazarlama"><br>
+        <br>
+        <label>iş tecrübesi</label><br>
+        <input type="number" min="0" max="100" placeholder="0"> yıl
+        <br>
+        <label>Yabancı dil seviyesi</label><br>
+        <input type="range" min="0" max="100"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Diğer Bilgiler</legend>
+        <label>Hobiler</label><br>
+        <input type="checkbox" name="hobi">Kitap
+        <input type="checkbox" name="hobi">Müzik
+        <input type="checkbox" name="hobi">Sinema
+        <br>
+        <label>Favori renk</label>
+        <input type="color"><br>
+        <br>
+        <label>Fotoğraf yükle</label><br>
+        <button>Dosya Seç</button>Dosya Seçilmedi
+    </fieldset>
+    <br>
+    <button>Okudum Anladım</button> 
+    <input type="submit" value="Tamam">
+    <input type="reset" value="Temizle">
+</body>
+</html>
